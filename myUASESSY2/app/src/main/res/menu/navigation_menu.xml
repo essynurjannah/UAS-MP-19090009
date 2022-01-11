@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile BA"/>
+        <item android:id="@+id/nav_doctor"
+            android:icon="@drawable/ic_doctor"
+            android:title="Doctor"/>
+        <item android:id="@+id/nav_polklinik"
+            android:icon="@drawable/ic_poliklinik"
+            android:title="Poliklinik"/>
+        <item android:id="@+id/nav_kamar"
+            android:icon="@drawable/ic_kamar"
+            android:title="Kamar"/>
+        <item android:id="@+id/nav_medical"
+            android:icon="@drawable/ic_medical"
+            android:title="Medical Check Up"/>
+    </group>
+
+    <item android:title="Berbagi">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"/>
+        </menu>
+    </item>
+</menu>
